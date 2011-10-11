@@ -63,6 +63,12 @@
                        success:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response,UIImage *image))success
                        failure:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error))failure;
 
+//- (void)setImageWithURLRequest:(NSURLRequest *)urlRequest 
+//              placeholderView:(UIView *)placeholderView 
+//                       success:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response,UIImage *image))success
+//                       failure:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error))failure;
+
+
 - (void)cancelImageRequestOperation;
 
 @end
